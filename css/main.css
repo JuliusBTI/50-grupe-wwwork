@@ -1,0 +1,19 @@
+body {
+  display: block;
+  width: 100;
+  margin: 0; 
+}
+
+main {
+    background-color: beige;
+     width: 85%; 
+     float: left; 
+     height: 800px;
+}
+
+aside {
+    background-color: azure;
+    width: 15%;
+    float: left;
+    height: 800px;
+}
