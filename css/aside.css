@@ -6,14 +6,10 @@ aside {
     background-color: silver;
 }
 
-.logo {
-    margin-left: 30px;
-}
-
 .main-nav {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 150px;
 }
 
 .nav-group {
@@ -22,9 +18,9 @@ aside {
 }
 
 .nav-group-title {
-    font-size: 25px;
+    font-size: 26px;
     margin-left: 30px;
-    ;
+    
 }
 
 .nav-list {
@@ -37,10 +33,24 @@ aside {
     padding: 10px 40px;
     text-decoration: none;
     color: black;
+    
 }
 
 .active {
     background-color: rgb(118, 80, 224);
     color: white;
-    padding-right:20px ;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+.fonas-2 {
+    background-color:rgb(244, 240, 253);
+    margin: 90px 25px ;
+    border-radius: 10px;
+    padding:30px 10px  ;
+}
+
+.logout {
+    text-decoration: none;
+    color: gray;
 }
