@@ -1,13 +1,17 @@
 .main-header {
     grid-area: header;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    border-style: solid ;
+    border-color: white;
 }
 
 .form {
     position: relative;
+    
 }
 
 .form > input {
@@ -24,9 +28,9 @@
 .form> .fa {
     font-size: 20 px; 
     line-height: 30px;
-    color: rgba(128, 128, 128, 0.287);
+    color: rgba(128, 128, 128, 0.735);
     position: absolute;
-    top: 25px;
+    top: 10px;
     left: 25px;
     
 }
@@ -34,36 +38,38 @@
 .user-block {  
     display: flex;
     align-items: center;
-    gap: 15px;   
+    gap: 15px;
+      
 }
 .notifications {
     font-size: 20px;
     position: relative;
+    
 }
 
 
 .bubble {
-    height: 5px;
-    width: 5px;
+    height: 12px;
+    width: 12px;
     background-color:red;
     border-radius: 50%;
     border-color:white ;
     border-style: solid  ;
     position: absolute;
-    right: 207px;
-    top:30px;
+    right: 205px;
+    top:16px;
 }
 
 
 .user {
     margin-right: 100px;
-
 }
 
 .user1 {
     position: absolute;
     right: 83px ;
-    top: 32px ;
+    top: 20px ;
     font-size: 13px;
+    
 }
 
